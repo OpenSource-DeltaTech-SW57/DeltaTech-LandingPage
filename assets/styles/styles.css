@@ -97,6 +97,10 @@ header a {
     margin: 4px;
 }
 
+.btn-outline-warning {
+    border-color:#ffa500;
+    color: #ffa500;
+}
 
 /* Footer */
 footer {
