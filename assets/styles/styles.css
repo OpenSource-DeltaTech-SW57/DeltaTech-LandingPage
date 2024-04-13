@@ -6,17 +6,17 @@
 }
 
 body {
-    font-family: "Heebo", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #fff;
 }
 
 h2, h3, h4 {
-    font-family: "Heebo", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #fff;
 }
 
 p {
-    font-family: "Jost", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #fff;
 }
 
@@ -52,7 +52,7 @@ a:visted {
 
 
 .btn-warning {
-    background-color:orange;
+    background-color:#ffa500;
 }
 /* My Content */
 .heroSlider .row {
