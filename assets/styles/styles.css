@@ -1,3 +1,4 @@
+
 /* General */
 * {
     margin: 0;
@@ -6,17 +7,17 @@
 }
 
 body {
-    font-family: "Heebo", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #fff;
 }
 
 h2, h3, h4 {
-    font-family: "Heebo", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #fff;
 }
 
 p {
-    font-family: "Jost", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #fff;
 }
 
@@ -50,8 +51,28 @@ a:visted {
     color: #fff;
 }
 
-/* Bootstrap General */
-.row {
+
+.btn-warning {
+    background-color:#ffa500;
+}
+/* My Content */
+.heroSlider .row {
+    align-items: center;
+}
+.what .row {
+    align-items: center;
+}
+
+.why .row {
+    align-items: center;
+}
+.advantages .row {
+    align-items: center;
+}
+.FAQs .row {
+    align-items: center;
+}
+.form .row {
     align-items: center;
 }
 
@@ -100,8 +121,6 @@ footer .right {
 footer img {
     margin: 2px;
 }
-
-/* Hero Section */
 
 /* Media Screen for all sections */
 @media only screen and (max-width: 600px){

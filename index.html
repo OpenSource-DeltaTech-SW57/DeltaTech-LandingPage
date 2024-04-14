@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,6 +14,9 @@
     <!--Fonts Style-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Jost&display=swap" rel="stylesheet">
     <!--My Style-->
     <link href="assets/styles/styles.css" rel="stylesheet">
@@ -22,190 +26,330 @@
 
 <body>
     <!--Menu de Navegacion-->
-    <header>
-        <div class="left">
-            <h2>DiligenceTech</h2>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
+        <a class="navbar-brand" href="#">
+            <img height="18" src="assets/images/DiligenceTechFont.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color: black; border-color:black">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#aboutUs">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#functionalities">FEATURES</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#plans">PLANS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#benefits">BENEFITS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#FAQs">FAQs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#contactUs">CONTACT US</a>
+            </li>
+            <li class="nav-item">
+                <button class="btn btn-warning my-2 my-sm-0">LOG-IN</button>
+            </li>
+          </ul>
         </div>
-        <div class="right">
-            <nav>
-                <a href="">NOSOTROS</a>
-                <a href="">FUNCIONALIDADES</a>
-                <a href="">PLANES</a>
-                <a href="">BENEFICIOS</a>
-                <a href="">PREGUNTAS</a>
-                <a href="">SOLICÍTANOS</a>
-                <a href="" class="btn btn-secondary">LOG-IN</a>
-                <a href="" class="btn btn-secondary">REGÍSTRATE</a>
-            </nav>
-        </div>
-    </header>
+    </nav>
 
-    <main class="bg-dark">
+    <main style="background-color:black">
         <!--HeroSlider-->
-        <div class="container-fluid heroSlider">
-            <div class="row">
-                <div class="p-1 col-lg-6 col-md-6 col-sm-6 text-center">
-                    <img class="img-fluid" src="assets/images/DiligenceTechLogo.png">
-                    <p class="text-secondary">Revoluciona tu DUE DILIGENCE con DILIGENCETECH</p>
-                    <a class="btn btn-primary">SOLICITA UNA DEMOSTRACIÓN</a>
+        <div id="heroSlider" class="container-fluid heroSlider">
+            <div class="row" style="background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.411)), url(assets/images/heroImage.jpg); background-size: cover; background-position:center;">
+                <div class="p- col-lg-6 col-md-6 col-sm-6 text-center">
+                    <img class="p-4 img-fluid" src="assets/images/DiligenceTechImage.png" style="max-width:70%">
+                    <p class="text-white">Revolutionize your DUE DILIGENCE with DILIGENCETECH</p>
+                    <a class="btn btn-warning btn-block" href="#contactUs">REQUEST A DEMO</a>
                     <br></br>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 full-img">
-                    <img src="assets/images/heroImage.jpg" class="img-fluid" alt="img">
+                <div class="col-lg-6 col-md-6 col-sm-6">
                 </div>
             </div>
         </div>
         <!--What-->
-        <div class="container-fluid what">
-            <div class="row">
+        <div id="aboutUs" class="container-fluid what">
+            <div class="p-4 row">
                 <div class="p-4 col-lg-6 col-md-6 col-sm-6 text-center">
-                    <h2>¿Quienes Somos?</h2>
-                    <p class="text-secondary">Somos DiligenceTech, innovadores apasionados por redefinir el proceso de due diligence en línea. Nuestro equipo está formado por expertos en tecnología financiera, dedicados a la automatización y análisis de datos financieros para transacciones comerciales críticas.</p>
+                    <h2>About Us</h2>
+                    <p class="text-white-50">We are DiligenceTech, passionate innovators refining the virtual Due Diligence process. Our team is made up of experts in financial technology, dedicated to the virtuality and analysis of corporate data for critical business M&A.</p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 text-center">
-                    <img class="img-fluid" src="assets/images/Computer.png">
+                    <img class="img-fluid" src="assets/images/ComputerDiligenceTech3.png">
                 </div>
             </div>
         </div>
         <!--Functionalities-->
-        <div class="container-fluid functionalities">
+        <div id="functionalities" class="p-4 container-fluid functionalities" style="background-color: #1D1919;">
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 text-center" style="background-color:blue; border:1px solid black;">
-                    <h2>Funcionalidades esenciales de DiligenceTech</h2>
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                    <h2>DiligenceTech Essential Features</h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 text-center" style="background-color:black; border:1px solid black;">
-                    <img class="img-fluid" src="assets/images/twitter-avi-gender-balanced-figure.png">
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                    <img class="img-fluid" src="assets/images/ComputerDiligenceTech.png">
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-3 text-center" style="background-color:blue; border:1px solid black;">
-                    <h3>Opcion 1</h3>
+            <div class="p-3 row">
+                <div class="p-1 col-lg-3 col-md-3 col-sm-6">
+                    <div class="card h-100 text-center">
+                        <div class="card-body text-center justify-content-center" style="background-color: #000000;">
+                            <h5 class="card-title text-white">Project Creation</h5>
+                            <p class="card-text text-white-50">Create your virtual Due Diligence project with a confidential system to ensure confidentiality. Utilize our specialized configurations as well.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-3 text-center" style="background-color:red; border:1px solid black;">
-                    <h3>Opcion 2</h3>
+                <div class="p-1 col-lg-3 col-md-3 col-sm-6">
+                    <div class="card h-100 text-center">
+                        <div class="card-body text-center justify-content-center" style="background-color: rgb(0, 0, 0);">
+                            <h5 class="card-title text-white">Insertion of Information Requirements</h5>
+                            <p class="card-text text-white-50">As a Buy-Side Agent, create and edit easily with our tools dedicated to create Requirements for the Sell-Side Team with Excel or interactively.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-3 text-center" style="background-color:blue; border:1px solid black;">
-                    <h3>Opcion 3</h3>
+                <div class="p-1 col-lg-3 col-md-3 col-sm-6">
+                    <div class="card h-100 text-center">
+                        <div class="card-body text-center justify-content-center" style="background-color: rgb(0, 0, 0);">
+                          <h5 class="card-title text-white">Due Diligence</h5>
+                          <p class="card-text text-white-50">Insert documents fast and safely with our easy-to-use application as a Sell-Side member. Buy-Side members can visualize the changes in real-time as they occur.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-3 text-center" style="background-color:red; border:1px solid black;">
-                    <h3>Opcion 4</h3>
+                <div class="p-1 col-lg-3 col-md-3 col-sm-6">
+                    <div class="card h-100 text-center">
+                        <div class="card-body text-center justify-content-center" style="background-color: rgb(0, 0, 0);">
+                          <h5 class="card-title text-white">Q&A</h5>
+                          <p class="card-text text-white-50">Interact with the opposite team through a system of Questions to ensure the quality of documents posted.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <!--Subscriptions-->
-        <div class="container-fluid subscriptions">
+        <div id="plans" class="p-4 container-fluid subscriptions">
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 text-center" style="background-color:blue; border:1px solid black;">
-                    <h2>Elige nuestros planes</h2>
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                    <h2 >Choose one of our plans</h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-4 text-center" style="background-color:blue; border:1px solid black;">
-                    <h3>Opcion 1</h3>
+                <div class="p-4 col-lg-4 col-md-4 col-sm-4">
+                    <div class="card h-100 text-center" style="border: 6px solid orange; border-radius: 2px; border-color: orange;">
+                        <div class="card-body text-center justify-content-center">
+                          <h5 class="card-title">Monthly</h5>
+                          <p class="card-text text-dark">S/.39.90</p>
+                          <p class="card-text text-white">Save S/.0.00</p>
+                          <a href="#" class="btn mt-auto btn-outline-danger">Buy now</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 text-center" style="background-color:red; border:1px solid black;">
-                    <h3>Opcion 2</h3>
+                <div class="p-4 col-lg-4 col-md-4 col-sm-4">
+                    <div class="card h-100 text-center" style="border: 6px solid orange; border-radius: 2px; border-color: orange;">
+                        <div class="card-body">
+                          <h5 class="card-title">Quarterly</h5>
+                          <p class="card-text text-dark">S/.99.90</p>
+                          <p class="card-text text-dark">Save S/18.90*</p>
+                          <a href="#" class="btn mt-auto btn-outline-danger">Buy now</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 text-center" style="background-color:blue; border:1px solid black;">
-                    <h3>Opcion 3</h3>
+                <div class="p-4 col-lg-4 col-md-4 col-sm-4">
+                    <div class="card h-100 text-center" style="border: 6px solid orange; border-radius: 2px; border-color: orange;">
+                        <div class="card-body">
+                          <h5 class="card-title">Annual</h5>
+                          <p class="card-text text-dark">S/.389.90</p>
+                          <p class="card-text text-dark">Save S/79.90*</p>
+                          <a href="#" class="btn mt-auto btn-outline-danger">Buy now</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 text-center" style="background-color:blue; border:1px solid black;">
-                    <h2>* Aplican Términos y Condiciones</h2>
+                <div class="p-2 col-lg-12 col-md-12 col-sm-12 text-center">
+                    <p>* Terms & Conditions apply</p>
                 </div>
             </div>
         </div>
         <!--Why-->
-        <div class="container-fluid why">
-            <div class="row">
+        <div id="why" class="container-fluid why">
+            <div class="p-4 row">
                 <div class="p-4 col-lg-6 col-md-6 col-sm-6 text-center">
-                    <h2>¿Por Qué Nosotros?</h2>
-                    <p class="text-primary">DiligenceTech es sinónimo de Due Diligence ágil y segura, impulsada por IA para análisis financieros de precisión. Nuestra plataforma segura y fácil de usar se adapta a tus necesidades, respaldada por expertos y cifrado robusto. Confía en nuestra experiencia para tomar decisiones informadas que potencien el éxito de tus transacciones comerciales.</p>
+                    <h2>Why Us</h2>
+                    <p class="text-white-50">DILIGENCETECH is synonymous to agile and secure Due Diligence, powered by AI for precision financial analysis. Our secure, easy-to-use platform is tailored to your needs, backed by experts and strong encryption. Trust our experience to make informed decisions that enhance the success of your commercial transactions.</p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 text-center">
-                    <img class="img-fluid" src="assets/images/Computer.png">
+                    <img class="img-fluid" src="assets/images/WhyUs.jpg" alt="PorqueNosotros">
                 </div>
             </div>
         </div>
         <!--Advantages-->
-        <div class="container-fluid advantages">
+        <div id="benefits" class="p-4 container-fluid advantages">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 text-center" style="background-color:blue; border:1px solid black;">
-                    <p class="text-secondary">Ventaja 1</p>
+                <div class="col-lg-6 col-md-6 col-sm-6 text-center">
+                    <img class="p-2 img-fluid" src="assets/images/secureGuarantee.png" alt="SecurityGuaranteed" style="max-width: 70%;">
+                    <p>100% Secure Payment</p>
+                    <p class="text-white-50">Guaranteed 100% secure payments, with advanced encryption and state-of-the-art security protocols to protect each transaction.</p>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 text-center" style="background-color:red; border:1px solid black;">
-                    <p class="text-secondary">Ventaja 2</p>
+                <div class="col-lg-6 col-md-6 col-sm-6 text-center">
+                    <img class="p-2 img-fluid" src="assets/images/creditCard.png" alt="CreditCard" style="max-width: 50%;">
+                    <p>Money back guarantee within 30 days</p>
+                    <p class="text-white-50">If you are not completely satisfied, we will quickly and courteously offer your money back.</p>
                 </div>
             </div>
         </div>
         <!--FAQs-->
-        <div class="container-fluid FAQs">
+        <div id="FAQs" class="p-4 container-fluid FAQs">
             <div class="row">
-                <div class="p-2 col-lg-12 col-md-12 col-sm-12 text-center">
-                    <h2>Lo Que Nos Preguntan:</h2>
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                    <h2>FAQs</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="p-1 col-lg-12 col-md-12 col-sm-12 text-center">
-                        <a class="btn btn-secondary" data-toggle="collapse" href="#collapse0" role="button" aria-expanded="false" aria-controls="collapseExample">
-                            ¿Cómo puedo estar seguro de que DiligenceTech se mantendrá actualizado con los cambios y desarrollos del mercado?
+                        <a class="btn btn-block btn-outline-warning" data-toggle="collapse" href="#collapse0" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            How can I be sure that DiligenceTech will stay up to date with market changes and developments?
                         </a>
                         <div class="collapse" id="collapse0">
-                            <div class="card card-body">
-                                Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            <div class="card card-body text-white" style="background-color: rgb(0, 0, 0);">
+                                At DiligenceTech, we constantly update our platform by integrating the latest innovations and collaborating with experts from the financial sector. We stay ahead through feedback from our users and active market monitoring.
                             </div>
                         </div>
                 </div>
                 <div class="p-1 col-lg-12 col-md-12 col-sm-12 text-center">
-                    <a class="btn btn-secondary" data-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        ¿Qué medidas toma DiligenceTech para asegurar la confidencialidad en la due diligence?
+                    <a class="btn btn-block btn-outline-warning" data-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        What measures does DiligenceTech take to ensure confidentiality in due diligence?
                     </a>
                     <div class="collapse" id="collapse1">
-                        <div class="card card-body">
-                            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                        <div class="card card-body text-white" style="background-color: rgb(0, 0, 0);">
+                            We ensure confidentiality through advanced data encryption, strict access control with multi-factor authentication, and regular security audits to monitor and protect information.
                         </div>
                     </div>
                 </div>
                 <div class="p-1 col-lg-12 col-md-12 col-sm-12 text-center">
-                    <a class="btn btn-secondary" data-toggle="collapse" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        ¿Qué tipo de soporte ofrece DiligenceTech si tengo problemas o preguntas?
+                    <a class="btn btn-block btn-outline-warning" data-toggle="collapse" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        What kind of support does DiligenceTech offer if I have problems or questions?
                     </a>
                     <div class="collapse" id="collapse2">
-                        <div class="card card-body">
-                            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                        <div class="card card-body text-white" style="background-color: rgb(0, 0, 0);">
+                            DiligenceTech offers customer support via email and phone. Our team of experts is always available to resolve problems and answer questions, ensuring fast and effective assistance.
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!--Form-->
-        <div class="container-fluid form">
+        <div id="contactUs" class="p-4 container-fluid form" style="background-color: rgb(16, 16, 16);">
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 text-center" style="background-color:green; border:1px solid black;">
-                    <h2>Solicitanos una Demostración</h2>
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                    <h2>Request a Demo</h2>
+                    <p class="text-secondary">We help you take the first step: tell us a little about yourself. All fields are required.</p>
                 </div>
             </div>
+            <form novalidate>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <label class="text-white" for="email">Email</label>
+                        <input id="email" type="text" class="form-control" placeholder="Email">
+                        <br>
+                        <label class="text-white" for="firstName">First Name</label>
+                        <input id="firstName" type="text" class="form-control" placeholder="First Name">
+                        <br>
+                        <label class="text-white" for="lastName">Last Name</label>
+                        <input id="lastName" type="text" class="form-control" placeholder="Last Name">
+                        <br>
+                        <label class="text-white" for="company">Company</label>
+                        <input id="company" type="text" class="form-control" placeholder="Company">
+                        <br>
+                        <label class="text-white" for="industry">Industry</label>
+                        <select id="industry" class="form-control">
+                            <option value="manufacturing">Manufacturing</option>
+                            <option value="retail">Retail</option>
+                            <option value="healthCare">Health Care</option>
+                            <option value="technology">Technology</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <br>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <label class="text-white" for="position">Position</label>
+                        <input id="position" type="text" class="form-control" placeholder="Position">
+                        <br>
+                        <label class="text-white" for="phone">Phone</label>
+                        <input id="phone" type="text" class="form-control" placeholder="Phone">
+                        <br>
+                        <label class="text-white" for="country">Country</label>
+                        <input id="country" type="text" class="form-control" placeholder="Country">
+                        <br>
+                        <label class="text-white" for="province">Province</label>
+                        <input id="province" type="text" class="form-control" placeholder="Province">
+                        <br>
+                        <label class="text-white" for="help">How can we help you?</label>
+                        <input id="help" type="text" class="form-control" placeholder="How can we help you?">
+                        <br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <button class="btn btn-warning btn-block">Send</button>
+                    </div>
+                </div>
+            </form>
         </div>
     </main>
 
     <!--Menu Inferior-->
-    <footer>
+    <nav class="navbar navbar-expand navbar-dark" style="background-color: black">
+        <a class="navbar-brand" href="#">
+            <img width="34" src="assets/images/DiligenceTechImage.png">
+        </a>
+      
+        <div class="navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <img width="34" src="assets/images/twitter.png">
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <img width="34" src="assets/images/instagram.png">
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <img width="34" src="assets/images/youtube.png">
+                </a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    
+    <div class="bg-dark">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 text-center">
-                    <h1>DiligenceTech</h1>
+                <div class="col-lg-12 col-md-12 col-sm-12 text-right">
+                    <a href="https://www.flaticon.com/free-icons/youtube" title="youtube icons">Youtube icons created by Md Tanvirul Haque - Flaticon</a>
                 </div>
-                <div class="nav col-lg-6 col-md-6 col-sm-6 justify-content-end">
-                    <a class="ms-3" href="" target="_blank"><img src="assets/images/2021_Facebook_icon.svg.png" width="20" class="img-fluid"></a>
-                    <a class="ms-3" href="" target="_blank"><img src="assets/images/Instagram-Icon.png" width="20" class="img-fluid"></a>
-                    <a class="ms-3" href="" target="_blank"><img src="assets/images/X_icon_2.svg.png" width="20" class="img-fluid"></a>
+                <div class="col-lg-12 col-md-12 col-sm-12 text-right">
+                    <a href="https://www.flaticon.com/free-icons/instagram-logo" title="instagram logo icons">Instagram logo icons created by riajulislam - Flaticon</a>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 text-right">
+                    <a href="https://www.flaticon.com/free-icons/brands-and-logotypes" title="brands and logotypes icons">Brands and logotypes icons created by Freepik - Flaticon</a>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
 
     <!--Bootstrap Body Footer-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
