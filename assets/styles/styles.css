@@ -6,17 +6,17 @@
 }
 
 body {
-    font-family: "Heebo", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #fff;
 }
 
 h2, h3, h4 {
-    font-family: "Heebo", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #fff;
 }
 
 p {
-    font-family: "Jost", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #fff;
 }
 
@@ -30,11 +30,11 @@ main {
 }
 
 main h1 {
-    font-size: 32px;
+    font-size: 48px;
 }
 
 main h2 {
-    font-size: 24px;
+    font-size: 32px;
 }
 
 main h3 {
@@ -52,7 +52,7 @@ a:visted {
 
 
 .btn-warning {
-    background-color:orange;
+    background-color:#ffa500;
 }
 /* My Content */
 .heroSlider .row {
@@ -97,6 +97,10 @@ header a {
     margin: 4px;
 }
 
+.btn-outline-warning {
+    border-color:#ffa500;
+    color: #ffa500;
+}
 
 /* Footer */
 footer {
