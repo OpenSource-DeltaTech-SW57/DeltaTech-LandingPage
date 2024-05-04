@@ -10,12 +10,16 @@ Nuestra plataforma no solo agiliza el proceso de debida diligencia, sino que tam
 
 En DeltaTech, estamos comprometidos a brindar soluciones tecnológicas que impulsen el éxito de tu negocio. ¡Únete a nosotros y descubre cómo podemos ayudarte a optimizar tus procesos de debida diligencia hoy mismo!
 
-Landing Page for DiligenceTech.
-
 ## Tecnología utilizada
 
 - HTML 5 (Lenguaje estructurado)
 - Css
+
+## Recommended IDE Setup
+
+[VS Code](https://code.visualstudio.com/) o algún otro IDE de su preferencia que tenga instaladas las dependencias que requiere.
+
+
 
 
 
